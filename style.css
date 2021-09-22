@@ -1,0 +1,199 @@
+body {
+  background-image: linear-gradient(to left, #434343 0%, black 100%);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  /*background-image: url(/imagenes/img1.png);
+  background-repeat: repeat;
+  background-size: 400px;*/
+}
+
+p {
+  font-size: 30px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.imglogo {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+
+nav {
+  /*background-color: black;*/
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.barranav {
+  display: inline-flex;
+  list-style: none;
+  border: solid rgb(215, 229, 255) 2px;
+}
+
+.navegacion {
+  padding: 10px 60px;
+  background-color: #292929;
+}
+
+.navegacion:hover {
+  background-color: tomato;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: #ffebcd;
+}
+
+/* Parte 1 Parallax */
+
+.parallax {
+  background-image: url(imagenes/parallax.jpg);
+  /* Establece la altura minima de los elementos de bloque */
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cajaparallax {
+  /* margin: 0; */
+  position: absolute;
+}
+
+.tituloparallax h2 {
+  font-size: 75px;
+  color: rgb(63, 12, 12);
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-text-stroke: 1px white;
+}
+
+.parrafoparallax {
+  display: flex;
+  border: 2px solid whitesmoke;
+  margin: auto;
+  justify-content: center;
+}
+
+.parrafoparallax:hover {
+  background-color: tomato;
+  opacity: 0.7;
+}
+
+.parrafoparallax a {
+  font-size: 30px;
+  font-family: "Antic Slab", serif;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.informacion {
+  display: inline-flex;
+  margin-left: 250px;
+}
+
+.informacion p {
+  font-family: "Antic Slab", serif;
+  color: whitesmoke;
+  max-width: 50%;
+  margin: 0;
+  align-self: center;
+  padding-left: 50px;
+  line-height: 30px;
+}
+
+.titulogenshin {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.titulogenshin2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.hutaotrp {
+  max-width: 50%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.chibi {
+  display: block;
+  margin: 60px auto 20px;
+  width: 300px;
+}
+
+.titulogaleria, .titulovideos {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  padding: 40px;
+  -webkit-text-stroke: 2px #aa7878;
+}
+
+.galeria2 {
+  text-align: center;
+
+}
+
+.nose {
+  display: inline-block;
+  width: 33.3%;
+  max-width: 500px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 24px 7px #991313;
+  -moz-box-shadow: 0px 0px 24px 7px rgba(153, 19, 19, 1);
+  box-shadow: 0px 0px 24px 7px rgba(153, 19, 19, 1);
+}
+
+.nose2 {
+  display: inline-block;
+  width: 33.3%;
+  max-width: 500px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 24px 7px rgba(20, 53, 153, 1);
+  -moz-box-shadow: 0px 0px 24px 7px rgba(20, 53, 153, 1);
+  box-shadow: 0px 0px 24px 7px #143599;
+}
+
+.chibi2 {
+  display: block;
+  margin: 50px auto 20px;
+  width: 300px;
+}
+.video1 {
+  text-align: center;
+}
+
+.video2 {
+  text-align: center;
+}
+
+.video3 {
+  text-align: center;
+}
+
+.what {
+  border: 3px solid #143599;
+
+  margin: 40px;
+}
+
+.videos {
+  margin: 40px 80px;
+  border: 3px solid #143599;
+}
